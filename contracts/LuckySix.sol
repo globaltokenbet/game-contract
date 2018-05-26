@@ -3,7 +3,7 @@ pragma solidity ^0.4.19;
 import './Owned.sol';
 import './GTBToken.sol';
 
-contract LuckySixLottery is Owned, GTBToken {
+contract LuckySix is Owned, GTBToken {
     string constant version = "1.0.0";
 
     address public drawer;
